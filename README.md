@@ -44,22 +44,32 @@ cat < file1
 ## OUTPUT
 
 
+<img width="380" height="222" alt="image" src="https://github.com/user-attachments/assets/d1225b16-4666-4bfa-b3f5-9ac38d0ec433" />
+
 
 cat < file2
 ## OUTPUT
+
+<img width="441" height="222" alt="image" src="https://github.com/user-attachments/assets/8476969c-f6ab-4b5a-bf00-ea052434ccf3" />
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+
+
+ <img width="496" height="95" alt="image" src="https://github.com/user-attachments/assets/049c193e-4bd0-4050-9f55-74a70c1ad2f9" />
+
 comm file1 file2
  ## OUTPUT
 
- 
+ <img width="612" height="277" alt="image" src="https://github.com/user-attachments/assets/8f059c63-0e5d-4ffa-a0dc-de3f5a39b2ca" />
+
 diff file1 file2
 ## OUTPUT
 
+
+<img width="592" height="370" alt="image" src="https://github.com/user-attachments/assets/9bd90b78-76db-484a-9243-fe1844a0b44e" />
 
 #Filters
 
@@ -83,16 +93,19 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
+<img width="253" height="147" alt="image" src="https://github.com/user-attachments/assets/4780130f-cd5d-4e94-a60e-fe30f5c694a0" />
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+<img width="325" height="202" alt="image" src="https://github.com/user-attachments/assets/576afa58-9f82-421e-a7de-5dc786708a6d" />
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+<img width="296" height="186" alt="image" src="https://github.com/user-attachments/assets/113e1a6a-6da7-4843-8a16-2919ec6cbce2" />
 
 
 cat < newfile 
